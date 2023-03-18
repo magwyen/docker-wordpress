@@ -10,7 +10,7 @@ services:
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: db_kullanici_adi
-      WORDPRESS_DB_PASSWORD: db-kullanici_sifresi
+      WORDPRESS_DB_PASSWORD: db_kullanici_sifresi
       WORDPRESS_DB_NAME: database_ismi
       MYSQL_ROOT_PASSWORD: mysqlpassw0rd1
     volumes:
